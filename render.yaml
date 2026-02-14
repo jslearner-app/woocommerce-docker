@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: wordpress
+    env: docker
+    repo: https://github.com/jslearner-app/woocommerce-docker
+    plan: free
+    dockerComposeFile: docker-compose.yml
