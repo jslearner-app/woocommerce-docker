@@ -1,8 +1,0 @@
-FROM bitnami/wordpress:latest
-
-ENV WORDPRESS_USERNAME=admin \
-    WORDPRESS_PASSWORD=admin123 \
-    WORDPRESS_EMAIL=admin@example.com \
-    WORDPRESS_BLOG_NAME="My WooCommerce Store"
-
-EXPOSE 8080
